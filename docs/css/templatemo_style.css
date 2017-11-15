@@ -43,7 +43,6 @@ nav .fa { display: block; text-align: center; margin-bottom: 13px; }
 
 .navbar {
 	background: #283147;
-	position: absolute;
 	min-height: 85px;	
 	border-radius: 0px; 
 	border: none; 
@@ -140,10 +139,10 @@ nav .fa { display: block; text-align: center; margin-bottom: 13px; }
 
 .notes_buttons  .icon-button:hover, .notes_buttons  .icon-button.active {	background-color: #e98714; }
 
-#notes h1 { background-color: #e98714; height: 375px; }
+#notes h1 { background-color: #e98714; }
 #notes .col-md-2 { padding-right: 0; }
 #notes .fa { line-height: 90px; }
-#notes_content { height: 375px; }
+#notes_content { height: 280px; }
 #notes_content .tab-pane {  padding: 15px; }
 #notes_content a { color: #FFFFFF; }
 
@@ -487,7 +486,7 @@ footer .row { height: 100%; }
   cursor: pointer;
   position: fixed;
   width: 100%;
-  height: 75%;
+  height: 100%;
   top: 0;
   left: 0;
   background: black;
